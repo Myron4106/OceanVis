@@ -14,3 +14,15 @@ This repository hosts a high-performance, web-based 3D visualization platform de
 * React.js & D3.js
 * CesiumJS (3D Geospatial Engine)[cite: 3]
 * *Designed for future backend integration with Python, Xarray, and Cloud-Optimized Zarr/Kerchunk data pipelines.*[cite: 3]
+
+**Prerequisites & Pre-installs**
+Before running this project locally, ensure you have the following installed on your machine:
+* [Node.js](https://nodejs.org/) (v16.0 or higher recommended)
+* npm (Node Package Manager - comes bundled with Node.js)
+* A modern web browser with WebGL enabled (Chrome, Firefox, Edge)
+
+**Local Setup Instructions**
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/yourusername/OceanVis.git](https://github.com/yourusername/OceanVis.git)
+   cd OceanVis
