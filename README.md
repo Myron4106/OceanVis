@@ -1,70 +1,16 @@
-# Getting Started with Create React App
+### Interactive 3D Ocean Data Visualization System (SIH 2026)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Overview**
+This repository hosts a high-performance, web-based 3D visualization platform developed for the Smart India Hackathon (SIH) 2026. The system is designed to seamlessly integrate numerical ocean model outputs (such as temperature, salinity, and currents) with in-situ observational data, enabling researchers and policymakers to explore complex oceanographic phenomena directly within a standard web browser.[cite: 3]
 
-## Available Scripts
+**Key Features & Capabilities:**
+* **Hardware-Accelerated 3D Globe:** Built using CesiumJS, which leverages WebGL to render highly performant 3D globes and maps natively in the browser without requiring any additional plugins.[cite: 3]
+* **Volumetric Rendering & Transfer Functions:** Utilizes advanced WebGL raymarching techniques to visualize 3D scalar fields. The system implements customizable transfer functions to assign specific colors and opacity levels to data values (e.g., mapping ocean temperature to a visual colorbar), allowing users to truly "see inside" the ocean volume.[cite: 3]
+* **In-Situ Data Integration:** Supports the overlay of discrete observational data, such as Argo floats. The architecture is designed to handle Quality Control (QC) flags from NetCDF files, ensuring that only reliable, validated sensor data is displayed in the 3D scene.[cite: 3]
+* **Interactive Analytics:** Features real-time UI controls for variable selection, depth-slice navigation, and data point querying.[cite: 3]
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Built With:**
+* HTML5 / CSS3 / JavaScript[cite: 3]
+* React.js & D3.js
+* CesiumJS (3D Geospatial Engine)[cite: 3]
+* *Designed for future backend integration with Python, Xarray, and Cloud-Optimized Zarr/Kerchunk data pipelines.*[cite: 3]
