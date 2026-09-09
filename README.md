@@ -31,7 +31,7 @@ Before running this project locally, ensure you have the following installed on 
 
 **1. Clone the repository:**
 ```bash
-git clone [https://github.com/yourusername/OceanVis.git](https://github.com/yourusername/OceanVis.git)
+git clone [https://github.com/Myron4106/OceanVis.git](https://github.com/Myron4106/OceanVis.git)
 cd OceanVis
 
 **1. Clone the repository:**
