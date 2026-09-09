@@ -3,7 +3,7 @@
 ### Overview
 This repository hosts a high-performance, web-based 3D visualization platform developed for the Smart India Hackathon (SIH) 2026[cite: 3]. The system is designed to seamlessly integrate numerical ocean model outputs (such as temperature, salinity, and currents) with in-situ observational data, enabling researchers and policymakers to explore complex oceanographic phenomena directly within a standard web browser[cite: 3].
 
-**🚀 Live Demo:** [Click here to view the live prototype!](https://your-vercel-url.vercel.app) *(Note: Replace this link with your actual Vercel URL)*
+**🚀 Live Demo:** [Click here to view the live prototype!](https://your-vercel-url.vercel.app)
 
 ### Key Features & Capabilities
 * **Hardware-Accelerated 3D Globe:** Built using CesiumJS, which leverages WebGL to render highly performant 3D globes and maps natively in the browser without requiring any additional plugins[cite: 3].
