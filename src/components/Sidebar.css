@@ -1,0 +1,38 @@
+.sidebar {
+  position: fixed;
+  top: 50px; /* below the nav bar */
+  left: 0;
+  width: 240px;
+  bottom: 50px; /* leave space for time player */
+  background: rgba(15, 23, 42, 0.75); /* Dark navy charcoal */
+  backdrop-filter: blur(12px); /* Frosted glass effect */
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  color: #f8fafc;
+  padding: 15px;
+  overflow: auto;
+  z-index: 900;
+  font-family: sans-serif;
+}
+
+.sidebar h3 { 
+  margin-top: 20px; 
+  margin-bottom: 10px; 
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #94a3b8;
+}
+
+.sidebar label { 
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0; 
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.sidebar input[type="range"] { 
+  width: 100%; 
+  accent-color: #38bdf8;
+}

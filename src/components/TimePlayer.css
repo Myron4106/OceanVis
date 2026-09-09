@@ -1,0 +1,22 @@
+.time-player {
+  position: fixed;
+  bottom: 0;
+  left: 220px; /* to the right of sidebar */
+  right: 0;
+  height: 50px;
+  background: #222;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  z-index: 900;
+  color: white;
+}
+
+.time-player input[type="range"] { 
+  flex-grow: 1; 
+  margin: 0 10px; 
+}
+
+.time-player button { 
+  margin-right: 10px; 
+}

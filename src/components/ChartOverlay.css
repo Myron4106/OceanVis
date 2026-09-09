@@ -1,0 +1,17 @@
+.chart-overlay {
+  position: fixed;
+  top: 50px;
+  right: -320px;
+  width: 320px;
+  bottom: 50px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: -2px 0 5px rgba(0,0,0,0.3);
+  padding: 10px;
+  transition: right 0.3s ease;
+  overflow: auto;
+  z-index: 950;
+}
+
+.chart-overlay.open { 
+  right: 0; 
+}
